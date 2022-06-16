@@ -25,9 +25,9 @@ class ResConfigSettings(models.TransientModel):
 
     def _partner_names_order_selection(self):
         return [
-            ("last_first", "Lastname Firstname"),
-            ("last_first_comma", "Lastname, Firstname"),
-            ("first_last", "Firstname Lastname"),
+            ("last_first", "Apellido Nombre"),
+            ("last_first_comma", "Apellido, Nombre"),
+            ("first_last", "Nombre Apellido"),
         ]
 
     def _partner_names_order_default(self):
